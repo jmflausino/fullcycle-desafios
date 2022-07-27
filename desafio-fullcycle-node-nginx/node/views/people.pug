@@ -1,0 +1,13 @@
+html
+  head
+    title= "Full Cycle 2.0"
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+  body(sytle="padding-top: 50px")
+    div(class = "container")
+        div(class = "jumbotron")
+            h1= "Full Cycle Rocks!"
+
+        div(class="alert alert-success") People
+        ul(class="list-group")
+            for person in people
+                    li(class = "list-group-item")= person
